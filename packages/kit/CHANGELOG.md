@@ -1,5 +1,11 @@
 # @sveltejs/kit
 
+## 3.0.0-next.30
+
+### Patch Changes
+
+- fix: set the focus starting point without a fragment navigation, which leaked a `hashchange` to app listeners ([#16992](https://github.com/sveltejs/kit/pull/16992))
+
 ## 3.0.0-next.29
 
 ### Patch Changes
